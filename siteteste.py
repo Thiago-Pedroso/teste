@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.title('Keras')
-st.selectbox('Selecione uma opção',['Keras', 'Tensorflow'])
+st.title('Qual o melhor framework de deep learning?')
+st.selectbox('Selecione uma opção',['Keras', 'Keras', 'Keras'])
