@@ -2,10 +2,13 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import tensorflow
 from tensorflow import keras
 from keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 from PIL import Image
+
+print (tensorflow.__version__)
 
 df = pd.read_csv('indicadores_statusinvest.csv')
 df = df.set_index('TICKER')
