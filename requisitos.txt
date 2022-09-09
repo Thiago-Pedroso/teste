@@ -1,2 +1,0 @@
-streamlit==22.2.2
-tensorflow==2.8
